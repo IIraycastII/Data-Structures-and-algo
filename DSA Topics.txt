@@ -1,0 +1,42 @@
+DSA -->
+
+Data Structures
+	Arrays
+	Linked List
+	Stacks
+	Queues
+	Hash Tables
+	Trees
+	Binary Search Trees
+	Heaps
+	Graphs
+	Trie 
+	Union Find
+
+Algorithms
+	Sorting
+	Searching
+		Linear search
+		Binary Search
+	Bit Manipulation
+	Tree Traversal
+		In Order
+		Pre Order
+		Post Order
+	Graph Algorithms
+		DFS/BFS
+		Topological Sort
+		Shortest Path
+		Minimum Spanning Tree
+
+Coding Patterns
+	Two Pointers
+	Sliding Windows
+	Prefix Sum
+	Fast and Slow Pointers
+	Divide and Conquer
+	Greedy
+	Recursive
+	Backtracking
+	Dynamic Programming
+	Top 'K' Elements
