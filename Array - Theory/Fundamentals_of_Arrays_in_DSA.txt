@@ -3,6 +3,12 @@
 2) contiguous memory - “Contiguous memory” means that all elements of an array are stored next to each other in RAM, without any gaps in between.
 Python lists store pointers contiguously, not the objects themselves.
 
+Python Lists Are Not True Arrays
+array_1 = ["abc", 3]
+
+
+This works in Python because a list stores references (pointers) to objects, not the actual objects themselves.
+
 3) Why Arrays Use Contiguous Memory?
 
 Because of this continuous block:
@@ -236,3 +242,4 @@ Implemented using arrays + hashing internally
 
 
 Examples: Python dict, Java HashMap
+
