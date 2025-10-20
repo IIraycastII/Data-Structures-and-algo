@@ -1,0 +1,81 @@
+1. Prefix
+
+Definition:
+A prefix of an array or string is a contiguous segment that starts at the first element and extends to any position in the array.
+
+Formally, if you have an array A = [a0, a1, ..., an-1], then a prefix ending at index i is:
+
+prefix 𝑖=[𝑎0,𝑎1,...,𝑎𝑖],0≤𝑖≤𝑛−1
+prefix i=[a0,a1,...,ai],0≤i≤n−1
+
+Properties of prefixes:
+
+Starts at the beginning: Always begins at the first element.
+
+Contiguous: Must include every element from the start up to index i.
+
+Number of prefixes: An array of length n has exactly n non-empty prefixes (and optionally 1 empty prefix).
+
+Length: The length of a prefix ending at index i is i+1.
+
+Example:
+
+A = [1, 2, 3, 4]
+
+
+Prefixes:
+
+Prefix ending at 0: [1]
+
+Prefix ending at 1: [1, 2]
+
+Prefix ending at 2: [1, 2, 3]
+
+Prefix ending at 3: [1, 2, 3, 4]
+
+Optional empty prefix: []
+
+Applications of prefix:
+
+Prefix sum arrays: Store cumulative sums to answer range sum queries efficiently.
+
+String algorithms: KMP algorithm uses prefix functions to find repeating patterns.
+
+Dynamic programming: Often use prefixes for computing cumulative information like sums, max, min.
+
+2. Suffix
+
+Definition:
+A suffix of an array or string is a contiguous segment that ends at the last element and starts at any position.
+
+Formally, for A = [a0, a1, ..., an-1], a suffix starting at index i is:
+
+suffix 𝑖=[𝑎𝑖,𝑎𝑖+1,...,𝑎𝑛−1],0≤𝑖≤𝑛−1
+suffix i=[ai,ai+1,...,an−1],0≤i≤n−1
+
+Properties of suffixes:
+
+Ends at the last element: Always terminates at the final element.
+
+Contiguous: Includes every element from start index i to the end.
+
+Number of suffixes: An array of length n has exactly n non-empty suffixes (and optionally 1 empty suffix).
+
+Length: The length of a suffix starting at index i is n-i.
+
+Example:
+
+A = [1, 2, 3, 4]
+
+
+Suffixes:
+
+Suffix starting at 0: [1, 2, 3, 4]
+
+Suffix starting at 1: [2, 3, 4]
+
+Suffix starting at 2: [3, 4]
+
+Suffix starting at 3: [4]
+
+Optional empty suffix: []
